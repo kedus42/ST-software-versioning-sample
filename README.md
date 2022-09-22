@@ -66,6 +66,11 @@ ROS2 subscriptions added to ic_driver in order to aquire sensor data from ic_ins
 
 *Updates added to patch security or safety issues. All changes in this category must be introduced into all other affected versions*
 
+| Update | Affected versions |
+| --------- | -------------- |
+| Bumper switches querried at a higher frequency (10 Hz) to ensure quick reaction to obstacles | 0.1, 0.2 |
+| Motor controllers disabled in the event that ic_controller shuts down | 0.2 |
+
 **Adopted security and safety updates**
 
 *Updates added to patch security or safety issues. All security and safety updates adopted from other versions belong here*
